@@ -1,5 +1,5 @@
 <template>
-  <h1>Index page</h1>
+  <h1 class="p-8 text-white">Index page</h1>
 </template>
 
 <script>

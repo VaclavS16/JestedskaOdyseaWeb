@@ -1,6 +1,6 @@
 <template>
-  <div clas="p-4">
-    <nuxt-img :width="800" class="jo-logo mx-auto" src="/logo_shadow.svg" />
+  <div class="w-full">
+    <nuxt-img :width="500" class="jo-logo absolute" src="/logo_shadow.svg" />
   </div>
 </template>
 

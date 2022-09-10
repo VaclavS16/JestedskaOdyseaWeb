@@ -1,5 +1,5 @@
 <template>
-  <div class="jo-wrapper">
+  <div class="jo-wrapper bg-center bg-cover h-screen flex flex-col items-center">
     <JoHeader></JoHeader>
     <nav class="flex align-center gap-4 p-4">
       <!--      <NuxtLink class="n-link-base" to="/">-->
@@ -9,15 +9,14 @@
       <!--        About-->
       <!--      </NuxtLink>-->
     </nav>
-    <nuxt-page></nuxt-page>
+    <div class="mt-8 w-1/2 h-4/5 border-8 border-solid border-green-500 bg-slate-900">
+      <nuxt-page></nuxt-page>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .jo-wrapper {
   background-image: url("~/static/images/back_min.webp");
-  background-size: cover;
-  height: 100vh;
-  filter: drop-shadow(0px 0px 2px black);
 }
 </style>;
