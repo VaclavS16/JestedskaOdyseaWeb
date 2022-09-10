@@ -12,6 +12,7 @@
     <div class="mt-8 w-1/2 h-4/5 border-8 border-solid border-green-500 bg-slate-900">
       <nuxt-page></nuxt-page>
     </div>
+    <JoFooter></JoFooter>
   </div>
 </template>
 

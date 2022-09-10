@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxi build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27707824.1028381",
+    "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/tailwindcss": "^5.3.3",
+    "eslint": "^8.23.0",
     "nuxt": "3.0.0-rc.9"
   }
 }
