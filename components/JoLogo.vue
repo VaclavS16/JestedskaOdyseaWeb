@@ -1,7 +1,5 @@
 <template>
-  <div class="w-full">
-    <nuxt-img :width="500" class="jo-logo absolute" src="/logo_shadow.svg" />
-  </div>
+  <nuxt-img class="jo-logo" src="/logo_shadow.svg" />
 </template>
 
 <style scoped>
