@@ -12,6 +12,7 @@
     "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/tailwindcss": "^5.3.3",
     "eslint": "^8.23.0",
-    "nuxt": "3.0.0-rc.9"
+    "nuxt": "3.0.0-rc.9",
+    "sass": "^1.54.9"
   }
 }

@@ -33,19 +33,4 @@ const hover = ref(false);
 .jo-button--icon:hover {
   animation: pulse-border 1s infinite;
 }
-
-@keyframes pulse-border {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 150, 0, 1);
-    box-shadow: 0 0 0 0 rgba(0, 150, 0, 1);
-  }
-  90% {
-    -moz-box-shadow: 0 0 0 10px rgba(0, 150, 0, 0);
-    box-shadow: 0 0 0 10px rgba(0, 150, 0, 0);
-  }
-  100% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 150, 0, 0);
-    box-shadow: 0 0 0 0 rgba(0, 150, 0, 0);
-  }
-}
 </style>

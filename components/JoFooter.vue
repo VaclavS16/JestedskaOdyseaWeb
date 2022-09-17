@@ -8,6 +8,6 @@
 
 <style scoped>
 .jo-footer {
-  background-image: linear-gradient(to top, black, black, transparent);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
 }
 </style>

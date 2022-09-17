@@ -16,5 +16,8 @@ export default defineNuxtConfig({
   },
   static: {
     prefix: 'public',
-  }
+  },
+  css: [
+    '~/assets/scss/main.scss',
+  ],
 })
