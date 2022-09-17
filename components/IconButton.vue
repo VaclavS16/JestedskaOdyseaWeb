@@ -1,7 +1,7 @@
 <template>
   <a
     :href="props.link"
-    class="jo-button--icon rounded-full p-3 sm:p5 inline-flex  border-solid border-2 border-green-500 hover:bg-green-500"
+    class="jo-button--icon rounded-full p-3 sm:p5 inline-flex  border-solid border-2 border-green hover:bg-green"
     target="_blank"
     @mouseenter="hover = true"
     @mouseleave="hover = false"
