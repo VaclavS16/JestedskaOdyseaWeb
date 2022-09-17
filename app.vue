@@ -3,7 +3,7 @@
     <JoCanvas class="absolute w-full h-full z-10 opacity-60"></JoCanvas>
     <JoLogo class="absolute w-72 top-0 xl:left-0 xl:w-1/3 z-30"></JoLogo>
     <div
-      class="mt-32 mb-auto xl:mt-8  w-11/12 sm:w-3/4 lg:w-1/2 border-8 border-solid border-green-500 bg-slate-900 z-20">
+      class="mt-32 mb-auto xl:mt-auto  w-11/12 sm:w-3/4 lg:w-1/2 border-8 border-solid border-green-500 bg-slate-900 z-20">
       <nuxt-page></nuxt-page>
     </div>
     <JoFooter class="z-20"></JoFooter>
