@@ -22,9 +22,9 @@ if (process.client) {
   });
   let backgroundColors = ["#000", "#000"];
   let colors = [
-    ["#00D200", "#00D200"],
-    ["#00D200", "#00D200"],
-    ["#00D200", "#00D200"],
+    ["#108F9E", "#108F9E"],
+    ["#108F9E", "#108F9E"],
+    ["#108F9E", "#108F9E"],
   ];
   let count = 10;
   let blur = [12, 70];

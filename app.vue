@@ -3,7 +3,7 @@
     <JoCanvas class="absolute w-full h-full z-10 opacity-60"></JoCanvas>
     <JoLogo class="absolute w-72 top-0 xl:left-0 xl:w-1/3 z-30"></JoLogo>
     <div
-      class="mt-36 mb-auto xl:mt-auto  w-11/12 sm:w-3/4 lg:w-1/2 border-8 border-solid border-green bg-slate-900 z-20">
+      class="jo-content mt-36 mb-auto xl:mt-auto  w-11/12 sm:w-3/4 lg:w-1/2 z-20">
       <nuxt-page></nuxt-page>
     </div>
     <JoFooter class="z-20"></JoFooter>
@@ -20,5 +20,9 @@
   background-size: cover;
   background-image: url("~/static/images/back_min.webp");
   filter: blur(4px);
+}
+
+.jo-content {
+  background-color: rgba(15, 23, 42, 0.7);
 }
 </style>
