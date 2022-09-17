@@ -1,7 +1,7 @@
 <template>
   <div class="jo-wrapper bg-center bg-cover min-h-screen flex flex-col items-center">
     <JoCanvas class="absolute w-full h-full z-10 opacity-60"></JoCanvas>
-    <JoLogo class="absolute w-72 top-0 xl:left-0 xl:w-1/3 z-30"></JoLogo>
+    <JoLogo class="absolute w-64 top-0 xl:left-0 xl:w-1/3 z-30 mt-2 xl:mt-6 xl:ml-6"></JoLogo>
     <div
       class="jo-content mt-36 mb-auto xl:mt-auto  w-11/12 sm:w-3/4 lg:w-1/2 z-20">
       <nuxt-page></nuxt-page>
