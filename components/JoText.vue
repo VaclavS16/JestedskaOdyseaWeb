@@ -1,6 +1,6 @@
 <template>
   <div id="JoText" class="jo-text">
-    <p class="p-6 text-white">
+    <p class="p-6 text-slate-300">
       {{ renderedText }}
       <span class="jo-cursor inline-block w-1 h-4 bg-white"></span>
     </p>
