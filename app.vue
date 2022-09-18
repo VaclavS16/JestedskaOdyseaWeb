@@ -6,7 +6,7 @@
       class="jo-content mt-36 mb-auto xl:mt-auto  w-11/12 sm:w-3/4 lg:w-1/2 z-20">
       <nuxt-page></nuxt-page>
     </div>
-    <JoEvent class="xl:absolute xl:right-20 xl:top-10"></JoEvent>
+    <JoEvent class="mt-4 xl:mt-0 xl:absolute xl:right-20 xl:top-10"></JoEvent>
     <JoFooter class="z-20"></JoFooter>
   </div>
 </template>

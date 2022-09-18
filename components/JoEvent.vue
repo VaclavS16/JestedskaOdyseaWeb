@@ -1,5 +1,5 @@
 <template>
-  <div class="jo-event z-20 flex">
+  <div class="jo-event z-20 flex items-end">
     <div class="jo-event--box">
       <span class="jo-event--head">Den</span>
       <span class="jo-event--content">3</span>
@@ -14,7 +14,7 @@
     </div>
     <div class="jo-event--box">
       <IconButton
-        class="mt-8 border-none bg-slate-900 rounded-none xl:p-4"
+        class="border-none bg-slate-900 rounded-none xl:p-4"
         icon-name="event"
         link="https://www.facebook.com/events/704033810723794"
         title="Facebook událost">
@@ -34,7 +34,7 @@
   @apply mr-0
 }
 .jo-event--head {
-  @apply border-slate-900 w-full text-center border-solid border-2 text-slate-300;
+  @apply border-slate-900 w-full text-center border-solid border-2 text-slate-300 text-sm xl:text-base;
   background-color: rgba(15, 23, 42, 0.7);
 }
 .jo-event--content {
