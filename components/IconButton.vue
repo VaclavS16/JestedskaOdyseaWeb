@@ -1,7 +1,7 @@
 <template>
   <a
     :href="props.link"
-    class="jo-button--icon rounded-full p-3 sm:p5 inline-flex  border-solid border-2 border-green hover:bg-green"
+    class="jo-button--icon rounded-full p-2 sm:p5 inline-flex  border-solid border-2 border-green hover:bg-green"
     target="_blank"
     @mouseenter="hover = true"
     @mouseleave="hover = false"
@@ -9,12 +9,12 @@
     <nuxt-img
       v-show="!hover"
       :src="`/icons/${props.iconName}.svg`"
-      class="w-6 sm:w-7"
+      class="w-5 sm:w-7"
     />
     <nuxt-img
       v-show="hover"
       :src="`/icons/${props.iconName}_dark.svg`"
-      class="w-6 sm:w-7"
+      class="w-5 sm:w-7"
     />
   </a>
 </template>
