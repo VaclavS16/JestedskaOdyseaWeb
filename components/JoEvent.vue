@@ -16,15 +16,12 @@
       <IconButton
         class="border-none bg-slate-900 rounded-none xl:p-4"
         icon-name="event"
-        link="https://www.facebook.com/events/704033810723794"
+        link="https://www.facebook.com/events/2859906680819707"
         title="Facebook událost">
       </IconButton>
     </div>
   </div>
 </template>
-
-<script setup>
-</script>
 
 <style scoped>
 .jo-event--box {
