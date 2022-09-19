@@ -12,9 +12,9 @@
       <span class="jo-event--head">Rok</span>
       <span class="jo-event--content">2023</span>
     </div>
-    <div class="jo-event--box">
+    <div class="jo-event--box h-12 sm:h-14 xl:h-16">
       <IconButton
-        class="border-none bg-slate-900 rounded-none xl:p-4"
+        class="border-none bg-slate-900 rounded-none xl:p-4 h-full"
         icon-name="event"
         link="https://www.facebook.com/events/2859906680819707"
         title="Facebook událost">
