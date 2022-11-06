@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Drom",
+    "genre": "post neco",
+    "desc": "Je to pomaly",
+    "pathPart": "drom",
+    "imgPath": "/bands/drom.jpeg"
+  },
+  {
+    "name": "Fasteratu",
+    "genre": "crust",
+    "desc": "Alkehol pro chudy",
+    "pathPart": "fasteratu",
+    "imgPath": "/bands/fasteratu.jpeg"
+  },
+  {
+    "name": "Skyburn",
+    "genre": "alt-rock",
+    "desc": "Taky je to pomaly",
+    "pathPart": "skyburn",
+    "imgPath": "/bands/skyburn.jpeg"
+  },
+  {
+    "name": "Amoclen",
+    "genre": "grindporn",
+    "desc": "Uzivejte 2x denne pred jidlemß",
+    "pathPart": "amoclen",
+    "imgPath": "/bands/amoclen.jpg"
+  }
+]
