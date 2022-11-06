@@ -35,6 +35,6 @@
   background-color: rgba(15, 23, 42, 0.7);
 }
 .jo-event--content {
-  @apply p-2 px-4 sm:p-3 sm:px-6 text-green font-bold text-2xl xl:text-4xl bg-slate-900
+  @apply p-2 px-4 sm:p-3 sm:px-6 text-jogreen font-bold text-2xl xl:text-4xl bg-slate-900
 }
 </style>

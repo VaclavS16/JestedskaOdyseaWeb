@@ -25,8 +25,4 @@
   filter: blur(4px);
   zoom: 110%;
 }
-
-.jo-content {
-  background-color: rgba(15, 23, 42, 0.7);
-}
 </style>

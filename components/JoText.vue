@@ -36,4 +36,8 @@ if (process.client) {
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
+
+.jo-text {
+  background-color: rgba(15, 23, 42, 0.7);
+}
 </style>
