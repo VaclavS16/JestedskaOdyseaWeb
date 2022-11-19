@@ -26,3 +26,14 @@
   zoom: 110%;
 }
 </style>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  filter: blur(0.1rem);
+}
+</style>
