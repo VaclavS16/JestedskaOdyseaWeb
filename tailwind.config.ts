@@ -4,7 +4,11 @@ const colors = require('tailwindcss/colors')
 
 export default <Config>{
   theme: {
-    extend: {},
+    extend: {
+      minWidth: {
+        '52': '13rem',
+      }
+    },
     colors: {
       'jogreen': "#00D200",
       'green': colors.green,
