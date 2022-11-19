@@ -1,7 +1,7 @@
 <template>
   <div v-if="activeBand" class="flex flex-row mt-8 gap-y-2">
     <nuxt-img ref="bandImageRef" :src="activeBand.imgPath" class="hidden" />
-    <span :style="{ backgroundImage: `url(${bandImageSrc})` }" class="min-w-52 h-52 bg-cover bg-center"></span>
+    <span :style="{ backgroundImage: `url(${bandImageSrc})` }" class="jo-band__image"></span>
     <JoText class="w-full">{{ activeBand.desc }}</JoText>
   </div>
 </template>
@@ -26,3 +26,11 @@ const activeBand = computed<JoBand | null>(() => {
 });
 
 </script>
+
+<style scoped>
+.jo-band__image {
+  @apply min-w-52 h-52 bg-cover bg-center;
+  filter: sepia(84%) saturate(3228%) hue-rotate(67deg) brightness(93%) contrast(120%);
+}
+
+</style>
