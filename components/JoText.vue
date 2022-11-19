@@ -14,7 +14,7 @@
 <script setup>
 const fullText = ref(null);
 
-const renderedText = ref(" ");
+const renderedText = ref("");
 
 if (process.client) {
   const typing = (index) => {

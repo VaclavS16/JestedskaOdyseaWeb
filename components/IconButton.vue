@@ -19,13 +19,13 @@
   </a>
 </template>
 
-<script setup>
-const props = defineProps({
-  iconName: String,
-  link: String,
-});
+<script lang="ts" setup>
+const props = defineProps<{
+  iconName: string,
+  link: string,
+}>();
 
-const hover = ref(false);
+const hover = ref<boolean>(false);
 
 </script>
 
