@@ -10,7 +10,7 @@ export default <Config>{
       }
     },
     colors: {
-      'jogreen': "#00D200",
+      'base': "#FADD00",
       'green': colors.green,
       'white': colors.white,
       'black': colors.black,
