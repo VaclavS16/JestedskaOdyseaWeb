@@ -8,11 +8,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image-edge": "^1.0.0-27707824.1028381",
-    "@nuxtjs/eslint-module": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "eslint": "^8.23.0",
-    "nuxt": "3.0.0-rc.9",
-    "sass": "^1.54.9"
+    "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
+    "@nuxtjs/eslint-module": "^4.0.1",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "eslint": "^8.3.0",
+    "nuxt": "^3.2.3",
+    "sass": "^1.58.3"
   }
 }
