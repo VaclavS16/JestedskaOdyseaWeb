@@ -15,7 +15,7 @@ export default <Config>{
       'white': colors.white,
       'black': colors.black,
       'slate': colors.slate,
-      'slate-transparent': 'rgba(15, 23, 42, 0.7)',
+      'slate-transparent': 'rgba(15, 23, 42, 0.9)',
       'cyan': colors.cyan,
       'emerald': colors.emerald,
     },

@@ -1,5 +1,5 @@
 <template>
-  <div id="JoText" class="jo-text">
+  <div id="JoText" class="jo-text gradient-border">
     <p class="p-6 text-slate-300">
       {{ renderedText }}
       <span class="jo-cursor inline-block w-1 h-4 bg-white"></span>
@@ -38,6 +38,6 @@ if (process.client) {
 }
 
 .jo-text {
-  background-color: rgba(15, 23, 42, 0.9);
+  @apply bg-slate-transparent;
 }
 </style>

@@ -31,8 +31,7 @@
   @apply mr-0
 }
 .jo-event--head {
-  @apply border-slate-900 w-full text-center border-solid border-2 text-slate-300 text-xs xl:text-base;
-  background-color: rgba(15, 23, 42, 0.7);
+  @apply border-slate-900 w-full text-center border-solid border-2 text-slate-300 text-xs xl:text-base bg-slate-transparent;
 }
 .jo-event--content {
   @apply p-2 px-4 sm:p-3 sm:px-6 text-base font-bold text-2xl xl:text-4xl bg-slate-900
