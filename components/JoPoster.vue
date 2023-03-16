@@ -1,13 +1,30 @@
 <template>
-  <nuxt-img class="jo-poster gradient-border" src="/2023poster_web_min.webp"/>
+  <div>
+    <nuxt-img class="jo-poster" @click="openModal" src="/2023poster_web_min.webp"/>
+    <JoModal :show="showPosterModal" @close="closeModal">
+      <nuxt-img class="jo-poster__modal" src="/2023poster_web.webp"/>
+    </JoModal>
+  </div>
 </template>
 
 <script setup>
+const showPosterModal = ref(false);
 
+const openModal = () => {
+  showPosterModal.value = true;
+};
+
+const closeModal = () => {
+  showPosterModal.value = false;
+};
 </script>
 
 <style scoped>
 .jo-poster {
-  @apply w-64 h-auto;
+  @apply w-64 h-auto hover:cursor-zoom-in;
+}
+
+.jo-poster__modal {
+  @apply max-h-screen;
 }
 </style>

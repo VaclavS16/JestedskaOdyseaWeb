@@ -16,7 +16,7 @@
 }
 
 .jo-footer__buttons {
-  @apply sm:mb-0 order-2 sm:order-1;;
+  @apply sm:mb-0 order-2 sm:order-1;
 }
 
 .jo-footer__poster {
