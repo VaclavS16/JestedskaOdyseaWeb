@@ -1,4 +1,4 @@
-import { Config } from 'tailwindcss'
+import {Config} from 'tailwindcss'
 
 const colors = require('tailwindcss/colors')
 

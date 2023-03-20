@@ -16,17 +16,16 @@ const fullText = ref(null);
 
 const renderedText = ref("");
 
-if (process.client) {
+onMounted(() => {
   const typing = (index) => {
     requestAnimationFrame(() => {
-      if (!fullText.value.innerText || (renderedText.value.length === fullText.value.innerText.length)) return;
+      if (!fullText.value?.innerText || (renderedText.value.length === fullText.value.innerText.length)) return;
       renderedText.value = renderedText.value + fullText.value.innerText[index];
       typing(index + 1);
     });
   };
-
   typing(0);
-}
+});
 </script>
 
 <style scoped>

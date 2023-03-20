@@ -1,5 +1,5 @@
 <template>
-  <JoText>
+  <JoText key="index-text">
     Čas a prostor tvoří naší realitu a existence má svá neměnná pravidla. První sobotu v červnu se proto opět uvidíme na
     dvanáctém ročníku hudebního festivalu Ještědská odysea. Opět ve Sportovním areálu Vesec, na čtyřech pódiích a v plné
     síle!!!

@@ -6,6 +6,7 @@
       <div
           class="jo-content mt-36 mb-auto xl:mt-52  w-11/12 sm:w-3/4 lg:w-1/2 z-20"
       >
+        <JoNav></JoNav>
         <nuxt-page></nuxt-page>
       </div>
       <JoEvent class="mt-4 xl:mt-0 xl:absolute xl:right-20 xl:top-10"></JoEvent>
@@ -35,6 +36,6 @@
 
 .page-enter-from,
 .page-leave-to {
-  filter: blur(0.1rem);
+  filter: blur(0.5rem);
 }
 </style>

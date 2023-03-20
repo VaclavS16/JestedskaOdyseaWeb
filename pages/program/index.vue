@@ -1,3 +1,5 @@
 <template>
-  <JoProgram />
+  <JoText key="program-text">
+    In progress...
+  </JoText>
 </template>
