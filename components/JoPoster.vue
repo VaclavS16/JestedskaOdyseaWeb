@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nuxt-img class="jo-poster" @click="openModal" src="/2023poster_web_min.webp"/>
+    <nuxt-img class="jo-poster" @click="openModal" src="/2023poster_800.webp"/>
     <JoModal :show="showPosterModal" @close="closeModal">
-      <nuxt-img class="jo-poster__modal" src="/2023poster_web.webp"/>
+      <nuxt-img class="jo-poster__modal" src="/2023poster_2000.webp"/>
     </JoModal>
   </div>
 </template>
