@@ -1,16 +1,17 @@
 <template>
   <div class="jo-wrapper bg-center bg-cover h-screen overflow-hidden">
     <div class="h-full z-10 flex flex-col items-center overflow-auto relative">
-      <JoLogo class="absolute w-48 top-0 xl:left-0 xl:w-96 z-30 mt-4 xl:mt-10 xl:ml-10"></JoLogo>
-
+      <nuxt-link to="/">
+        <JoLogo class="absolute w-48 top-0 xl:left-0 xl:w-96 z-30 mt-4 xl:mt-10 xl:ml-10"></JoLogo>
+      </nuxt-link>
       <div
-          class="jo-content mt-36 mb-auto xl:mt-52  w-11/12 sm:w-3/4 lg:w-1/2 z-20"
+          class="jo-content mt-36 mb-auto xl:mt-40  w-11/12 sm:w-3/4 lg:w-1/2 z-20"
       >
         <JoNav></JoNav>
         <nuxt-page></nuxt-page>
       </div>
       <JoEvent class="mt-4 xl:mt-0 xl:absolute xl:right-20 xl:top-10"></JoEvent>
-      <JoFooter class="z-20"></JoFooter>
+      <JoFooter class="z-20 fixed bottom-0 left-0 w-full"></JoFooter>
     </div>
   </div>
 </template>
@@ -31,11 +32,12 @@
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 0.7s;
 }
 
 .page-enter-from,
 .page-leave-to {
-  filter: blur(0.5rem);
+  margin-top: 100vh;
+  /*filter: blur(0.5rem);*/
 }
 </style>

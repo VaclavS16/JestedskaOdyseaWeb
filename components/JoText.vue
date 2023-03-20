@@ -24,7 +24,10 @@ onMounted(() => {
       typing(index + 1);
     });
   };
-  typing(0);
+
+  setTimeout(() => {
+    typing(0);
+  }, 700);
 });
 </script>
 
