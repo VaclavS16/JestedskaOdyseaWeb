@@ -1,20 +1,20 @@
 <template>
   <a
-    :href="props.link"
-    class="jo-button--icon rounded-full p-2 sm:p5 inline-flex  border-solid border-2 border-base hover:bg-base"
-    target="_blank"
-    @mouseenter="hover = true"
-    @mouseleave="hover = false"
+      :href="props.link"
+      class="jo-button--icon rounded-full p-2 sm:p5 inline-flex  border-solid border-2 border-joyellow hover:bg-joyellow"
+      target="_blank"
+      @mouseenter="hover = true"
+      @mouseleave="hover = false"
   >
     <nuxt-img
-      v-show="!hover"
-      :src="`/icons/${props.iconName}.svg`"
-      class="w-5 sm:w-7"
+        v-show="!hover"
+        :src="`/icons/${props.iconName}.svg`"
+        class="w-5 sm:w-7 m-auto"
     />
     <nuxt-img
-      v-show="hover"
-      :src="`/icons/${props.iconName}_dark.svg`"
-      class="w-5 sm:w-7"
+        v-show="hover"
+        :src="`/icons/${props.iconName}_dark.svg`"
+        class="w-5 sm:w-7 m-auto"
     />
   </a>
 </template>

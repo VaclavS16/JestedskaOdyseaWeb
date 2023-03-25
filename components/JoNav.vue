@@ -39,9 +39,9 @@ watch(route, (to) => {
   @apply mb-0.5 ml-auto w-fit;
 
   &__item {
-    @apply bg-slate-transparent text-slate-300 text-center text-base font-semibold uppercase tracking-widest;
+    @apply bg-slate-transparent text-slate-300 text-center text-joyellow font-semibold uppercase tracking-widest;
     @apply hover:text-slate-transparent;
-    @apply hover:bg-base;
+    @apply hover:bg-joyellow;
     @apply hover:cursor-pointer;
     @apply flex items-center justify-center;
     -moz-transform: skew(-15deg, 0deg);
@@ -51,7 +51,7 @@ watch(route, (to) => {
     transform: skew(-15deg, 0deg);
 
     &--active {
-      @apply bg-base;
+      @apply bg-joyellow;
       @apply text-slate-transparent;
     }
   }

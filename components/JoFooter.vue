@@ -5,7 +5,6 @@
       <IconButton class="mr-4" icon-name="instagram" link="https://www.instagram.com/jestedska_odysea/"></IconButton>
       <IconButton icon-name="location" link="https://goo.gl/maps/tXxggo9w2XUE1H94A"></IconButton>
     </div>
-    <JoPoster class="jo-footer__poster"></JoPoster>
   </div>
 </template>
 
