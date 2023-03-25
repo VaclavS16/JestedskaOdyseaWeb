@@ -1,5 +1,5 @@
 <template>
-  <div class="jo-event z-20 flex items-stretch lg:items-end">
+  <div class="jo-event">
     <div class="jo-event--box">
       <span class="jo-event--head">Den</span>
       <span class="jo-event--content pl-3">3.</span>
@@ -24,6 +24,10 @@
 </template>
 
 <style scoped>
+.jo-event {
+  @apply z-20 flex items-stretch lg:items-end border-2 border-solid border-joyellow lg:border-0
+}
+
 .jo-event--box {
   @apply flex lg:flex-col items-center lg:mr-4 items-stretch
 }
