@@ -24,12 +24,12 @@ jobs:
           yarn install --frozen-lockfile
           yarn generate
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: anvil-solutions/Fast-FTP-Action@2.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./.output/public/
-          server-dir: ./web/
-          protocol: ftps
+          local_dir: ./.output/public
+          remote_dir: ./web
+          method: ftp
           port: 21
