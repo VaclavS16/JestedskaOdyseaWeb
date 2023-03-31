@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Use Node.js 16
         uses: actions/setup-node@v3
@@ -23,17 +23,9 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn generate
-      - name: log
+      - name: Install lftp
         run: |
-          echo ${{ secrets.FTP_SERVER }}
-          echo ${{ secrets.FTP_USERNAME }}
-      - name: 📂 Sync files
-        uses: anvil-solutions/Fast-FTP-Action@2.1.3
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./.output/public
-          remote_dir: ./web
-          method: ftp
-          port: 21
+          sudo apt-get install lftp -y
+      - name: Deploy to FTP
+        run: |
+          lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}:21 -e "set ssl:verify-certificate no; mirror -R ${{ github.workspace }}/.output/public /web; quit"
