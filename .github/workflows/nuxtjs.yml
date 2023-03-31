@@ -31,9 +31,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: dist
-          path: ./dist  # název složky se soubory pro GitHub Pages
-
+          name: output
+          path: ./.output
   # Deployment job
   deploy:
     environment:
