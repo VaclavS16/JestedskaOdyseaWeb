@@ -5,12 +5,12 @@ export default defineNuxtConfig({
   ssr: true,
   app: {
     pageTransition: {name: 'page', mode: 'out-in'},
-    baseURL: "/JestedskaOdyseaWeb/",
+    baseURL: "/jestedska-odysea-web/",
   },
   router: {
-    base: "/JestedskaOdyseaWeb/",
+    base: "/jestedska-odysea-web/",
     options: {
-      history: createWebHistory('/base-directory/'),
+      history: createWebHistory('/jestedska-odysea-web/'),
     },
   },
   modules: [
