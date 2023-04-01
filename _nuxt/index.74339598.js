@@ -1,0 +1,1 @@
+import{_ as o}from"./JoText.46c380d2.js";import{a as t,c,w as n,o as a,b as r}from"./entry.0e826a77.js";const _={};function s(m,i){const e=o;return a(),c(e,{key:"ago-text"},{default:n(()=>[r(" A long time ago on a meadow somewhere in Vesec, Liberec…. ")]),_:1})}const d=t(_,[["render",s]]);export{d as default};
