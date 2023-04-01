@@ -1,3 +1,5 @@
+import {createWebHistory} from 'vue-router'
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
@@ -7,6 +9,9 @@ export default defineNuxtConfig({
   },
   router: {
     base: "/JestedskaOdyseaWeb/",
+    options: {
+      history: createWebHistory('/base-directory/'),
+    },
   },
   modules: [
     '@nuxt/image-edge',
