@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     pageTransition: {name: 'page', mode: 'out-in'},
     baseURL: "/JestedskaOdyseaWeb/",
   },
+  router: {
+    base: "/JestedskaOdyseaWeb/",
+  },
   modules: [
     '@nuxt/image-edge',
     '@nuxtjs/tailwindcss',
