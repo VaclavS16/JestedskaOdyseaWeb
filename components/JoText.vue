@@ -1,9 +1,7 @@
 <template>
-  <div id="JoText" class="jo-text gradient-border">
-    <p class="p-6 text-slate-300">
-      {{ renderedText }}
-      <span class="jo-cursor inline-block w-1 h-4 bg-white"></span>
-    </p>
+  <div id="JoText" class="gradient-border">
+    {{ renderedText }}
+    <span class="jo-cursor inline-block w-1 h-4 bg-white"></span>
 
     <p ref="fullText" class="hidden">
       <slot></slot>
@@ -37,9 +35,5 @@ onMounted(() => {
   animation-name: blink;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-}
-
-.jo-text {
-  @apply bg-slate-transparent;
 }
 </style>
