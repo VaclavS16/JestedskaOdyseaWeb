@@ -1,10 +1,6 @@
 <template>
   <JoProgram :active-band-name="activeBandName"/>
-  <JoText key="index-text" class="mt-5">
-    Čas a prostor tvoří naší realitu a existence má svá neměnná pravidla. První sobotu v červnu se proto opět uvidíme na
-    dvanáctém ročníku hudebního festivalu Ještědská odysea. Opět ve Sportovním areálu Vesec, na čtyřech pódiích a v plné
-    síle!!!
-  </JoText>
+  <JoPresale class="mt-5"></JoPresale>
 </template>
 
 <script setup>
